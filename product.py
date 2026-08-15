@@ -120,11 +120,11 @@
 #     print("not perfect number")
 
 # pattern .in 1 t0 7 only odd numbers double 
-# for i in range(1,8):
-#     if i%2!=0:
-#         print("*"*i+i)
-#     else:
-#         print("*"*i)
+for i in range(1,8):
+    if i%2!=0:
+        print("*"*(i+i))
+    else:
+        print("*"*i)
 
 # amstrong or not
 # n=int(input("enter the value"))

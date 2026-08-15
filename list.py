@@ -13,19 +13,19 @@
 
 
 # to find similar numbers in 2 lists
-mylist=[1,2,4,6]
-mylist1=[0,4,2,8]
-for i in range(len(mylist)):
-    for j in range(len(mylist1)):
-        if mylist[i]==mylist1[j]:
-            print(mylist[i])
+# mylist=[1,2,4,6]
+# mylist1=[0,4,2,8]
+# for i in range(len(mylist)):
+#     for j in range(len(mylist1)):
+#         if mylist[i]==mylist1[j]:
+#             print(mylist[i])
 
 # to avoid duplicates
 
 # mylist=[1,2,4,1]
 # dup=[]
 # for j in mylist:
-#     if j not in dup:hy
+#     if j not in dup:
 #         dup.append(j)
 #         print(j)
 
